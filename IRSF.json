@@ -1,0 +1,1189 @@
+[
+    {
+      "user": "Where is my order with tracking number 123456?",
+      "intent": "OrderTracking",
+      "slots": {"order_number": "123456"}
+    },
+    {
+      "user": "Check the delivery status for order 789012, please.",
+      "intent": "OrderTracking",
+      "slots": {"order_number": "789012"}
+    },
+    {
+      "user": "Any updates on my package with tracking ID 567890?",
+      "intent": "OrderTracking",
+      "slots": {"order_number": "567890"}
+    },
+    {
+      "user": "Tell me about laptops under $1000.",
+      "intent": "ProductInquiry",
+      "slots": {"price_range": "$1000", "product_type": "laptops"}
+    },
+    {
+      "user": "What are the features of the new camera model?",
+      "intent": "ProductInquiry",
+      "slots": {"product_type": "camera"}
+    },
+    {
+      "user": "Show me men's running shoes on sale.",
+      "intent": "ProductInquiry",
+      "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+      "user": "How do I change my account password?",
+      "intent": "AccountInformation",
+      "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+      "user": "What's my current reward points balance?",
+      "intent": "AccountInformation",
+      "slots": {"information_type": "reward points"}
+    },
+    {
+      "user": "Update my email address on the account.",
+      "intent": "AccountInformation",
+      "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+      "user": "Are there any ongoing discounts on electronics?",
+      "intent": "PromotionsAndDiscounts",
+      "slots": {"product_category": "electronics"}
+    },
+    {
+      "user": "Tell me about the current promotions for beauty products.",
+      "intent": "PromotionsAndDiscounts",
+      "slots": {"product_category": "beauty"}
+    },
+    {
+      "user": "I want to return a product. What is the process?",
+      "intent": "ReturnsAndRefunds",
+      "slots": {"action": "return", "process": "full process"}
+    },
+    {
+      "user": "How can I get a refund for a damaged item?",
+      "intent": "ReturnsAndRefunds",
+      "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+      "user": "What is the return policy for apparel?",
+      "intent": "ReturnsAndRefunds",
+      "slots": {"product_category": "apparel", "policy_type": "return"}
+    },
+    {
+        "user": "Can you provide me with an update on my order? The tracking number is 111222.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "111222"}
+    },
+    {
+        "user": "I'm curious about the whereabouts of my package. The tracking ID is 333444.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "333444"}
+    },
+    {
+        "user": "Tell me the current status of my recent order. The tracking code is 555666.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "555666"}
+    },
+    {
+        "user": "Where is my delivery? The tracking number is 777888.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "777888"}
+    },
+    {
+        "user": "Where is my delivery? The tracking number is 777888.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "777888"}
+    },
+    {
+        "user": "Provide details about my order status. The tracking ID is 999000.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "999000"}
+      },
+      {
+        "user": "Check the progress of my order with tracking number 101112, please.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "101112"}
+    },
+    {
+        "user": "Can you update me on my order's location? Tracking ID is 161718.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "161718"}
+    },
+    {
+        "user": "Any idea when my package will arrive? Tracking number is 131415.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "131415"}
+    },
+    {
+        "user": "Check my order status, please. Tracking code is 192021.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "192021"}
+    },
+    {
+        "user": "Tell me where my parcel is. The tracking number is 222333.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "222333"}
+    },
+    {
+        "user": "What's the status of my recent purchase? The tracking ID is 444555.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "444555"}
+    },
+    {
+        "user": "I'm inquiring about the delivery progress of my order. Tracking number is 666777.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "666777"}
+    },
+    {
+        "user": "Could you please check where my package is? The tracking code is 888999.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "888999"}
+    },
+    {
+        "user": "Provide me with information about my recent order. The tracking number is 112233.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "112233"}
+    },
+    {
+        "user": "Any updates on my shipment? Tracking ID is 334455.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "334455"}
+    },
+    {
+        "user": "Check the current status of my order, please. Tracking number is 556677.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "556677"}
+    },
+    {
+        "user": "Where is my delivery with tracking code 778899?",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "778899"}
+    },
+    {
+        "user": "Can you give me an update on my recent purchase? Tracking ID is 990011.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "990011"}
+    },
+    {
+        "user": "Tell me about my order's progress. The tracking number is 223344.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "223344"}
+    },
+    {
+        "user": "Where is my parcel? The tracking ID is 445566.",
+        "intent": "OrderTracking",
+        "slots": {"order_number": "445566"}
+    },
+    {
+        "user": "I'm looking for affordable laptops. What are the options under $800?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$800", "product_type": "laptops"}
+    },
+    {
+        "user": "Can you show me gaming laptops within the price range of $1200?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1200", "product_type": "gaming laptops"}
+    },
+    {
+        "user": "Tell me about the latest laptop models that cost less than $1500.",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1500", "product_type": "laptops"}
+    },
+    {
+        "user": "I'm interested in ultrabooks. What are the options under $900?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$900", "product_type": "ultrabooks"}
+    },
+    {
+        "user": "Show me budget-friendly laptops. What's available under $600?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$600", "product_type": "laptops"}
+    },
+    {
+        "user": "Any recommendations for student laptops under $700?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$700", "product_type": "student laptops"}
+    },
+    {
+        "user": "Tell me about 2-in-1 laptops. What's the pricing like?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "2-in-1 laptops"}
+    },
+    {
+        "user": "I need a business laptop. What are the options under $1000?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1000", "product_type": "business laptops"}
+    },
+    {
+        "user": "Show me laptops suitable for graphic design. What's the price range?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "graphic design laptops"}
+    },
+    {
+        "user": "Tell me about convertible laptops. What's the cost range?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "convertible laptops"}
+    },
+    {
+        "user": "Can you recommend laptops for programming under $1200?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1200", "product_type": "programming laptops"}
+    },
+    {
+        "user": "Can you recommend laptops for programming under $1200?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1200", "product_type": "programming laptops"}
+    },
+    {
+        "user": "I'm looking for a laptop for video editing. What's available under $1500?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1500", "product_type": "video editing laptops"}
+    },
+    {
+        "user": "Tell me about lightweight laptops. What's the price range?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "lightweight laptops"}
+    },
+    {
+        "user": "Show me laptops with large screens. What's the pricing?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "large screen laptops"}
+    },
+    {
+        "user": "I need a laptop for photo editing. What's available under $1300?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "$1300", "product_type": "photo editing laptops"}
+    },
+    {
+        "user": "Show me high-performance laptops for developers. What's the cost range?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "developer laptops"}
+    },
+    {
+        "user": "Can you recommend durable laptops for outdoor use? What's the pricing?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "outdoor laptops"}
+    },
+    {
+        "user": "Tell me about the latest Chromebooks. What's the cost range?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "Chromebooks"}
+    },
+    {
+        "user": "I'm interested in gaming laptops. What's the price range for high-end models?",
+        "intent": "ProductInquiry",
+        "slots": {"price_range": "", "product_type": "high-end gaming laptops"}
+    },
+    {
+        "user": "Tell me about the specifications of the latest DSLR camera model.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "I'm interested in cameras. Can you provide details about the features of the new mirrorless model?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "What are the key features of the digital camera you have in stock?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Tell me about the new point-and-shoot camera. What features does it offer?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Can you provide information on the features of the latest 360-degree camera model?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "I'm looking for a vlogging camera. What features does your recommended model have?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "What features set apart your high-end professional cameras from others in the market?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Tell me about the features of the compact camera you have on sale.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Can you provide details on the features of the waterproof camera in your inventory?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "I'm interested in action cameras. What features should I expect in your latest model?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Tell me about the unique features of the professional-grade video camera you offer.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "What features make your DSLR cameras suitable for beginners?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Provide information on the features of the mirrorless camera model designed for travel photographers.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "What are the distinguishing features of the latest webcam in your product lineup?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Tell me about the innovative features of your AI-powered camera.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "What features does your entry-level digital camera come with?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Can you provide details on the features of the advanced photography drone with a built-in camera?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Tell me about the features that make your wildlife photography camera stand out.",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "I'm interested in your DSLR cameras. What features should I consider for professional use?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "I'm interested in your DSLR cameras. What features should I consider for professional use?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },
+    {
+        "user": "Can you describe the features of the compact camera suitable for capturing low-light conditions?",
+        "intent": "ProductInquiry",
+        "slots": {"product_type": "camera"}
+    },    
+    {
+        "user": "I'm in need of running shoes for men. Can you show me the ones currently on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me discounted men's running shoes in your collection.",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm looking for men's running shoes on a budget. What do you have on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Can you show me running shoes for men with discounted prices?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Can you show me running shoes for men with discounted prices?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm interested in men's running shoes. What's on sale right now?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me the running shoes for men that are currently discounted.",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I need running shoes for men, preferably on sale. What options do you have?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Can you recommend men's running shoes with promotional prices?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm on the lookout for men's running shoes on sale. What's available?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me discounted running shoes for men. Any promotions currently?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I need running shoes for men at a good price. What's on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Can you show me men's running shoes that are currently discounted or on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm looking for running shoes for men, preferably on sale. What's in stock?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me men's running shoes with discounted prices. Any ongoing promotions?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me men's running shoes with discounted prices. Any ongoing promotions?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm interested in men's running shoes. Are any of them currently on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me running shoes for men that are currently on sale. Any discounts?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Can you recommend discounted men's running shoes with good reviews?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I'm in need of men's running shoes. Are any of them currently on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "Show me running shoes for men on sale. What discounts do you have?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I need men's running shoes at a good price. What's currently on sale?",
+        "intent": "ProductInquiry",
+        "slots": {"gender": "men", "product_type": "running shoes", "promotion": "sale"}
+    },
+    {
+        "user": "I want to update my password. How can I change it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "Can you guide me on changing my account password? I need to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "How do I modify my account password? I need to change it for security reasons.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I forgot my password. What's the process for resetting or changing it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I need to alter my account password. How can I do that securely?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "What steps should I follow to change my password for the account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "Can you assist me with updating my account password? I want to change it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I'm looking to change my account password. What's the procedure?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "How can I change the password for my account? Any guidance would be appreciated.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I want to update my account password. What are the steps involved?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "Can you provide instructions on changing the password for my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "What's the process for changing the password on my account? I want to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I need to change my password. How do I go about updating it for my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "How can I modify my account password? I need to change it for security purposes.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I forgot my account password. Can you guide me through the steps to change it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I want to change my password. How do I go about updating it for my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "Can you help me with updating my account password? I need to change it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "I'm looking to change my account password. What are the steps I should follow?",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "How do I change my password? I want to update it for my account.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "Can you guide me on changing my account password? I'm not sure how to do it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "change", "information_type": "password"}
+    },
+    {
+        "user": "How many reward points do I currently have in my account?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Can you tell me the balance of my reward points right now?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "What's the current status of my reward points balance?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I'd like to know how many reward points I have. Can you check for me?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "What is the total of my reward points at the moment?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Could you provide me with my current reward points balance?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "How many reward points do I have accumulated in my account?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Tell me the current balance of my reward points, please.",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Can you check and let me know the balance of my reward points?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I want to find out my current reward points balance. How can I do that?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "What's the total of my reward points right now? Can you provide the information?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I'd like to check the balance of my reward points. How can I do that?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Can you inform me about the current balance of my reward points?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "What is the current status of my reward points? Can you provide the details?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "How many reward points do I have right now? Can you check for me?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Tell me the balance of my reward points. I'm curious about the current status.",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I want to know my reward points balance. Can you provide that information?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "Can you check and tell me the current balance of my reward points?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "What's the total of my reward points right now? I need that information.",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I'd like to inquire about my reward points balance. Can you assist with that?",
+        "intent": "AccountInformation",
+        "slots": {"information_type": "reward points"}
+    },
+    {
+        "user": "I need to change the email address associated with my account. How can I update it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you guide me on how to update my account's email address? I want to make a change.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I want to modify the email address linked to my account. What's the process for updating it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "How do I go about changing the email address on my account? I need to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Update my account's email address. What steps should I follow?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I'd like to update the email address for my account. Can you provide instructions?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "What steps should I follow to update the email address associated with my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you assist me in changing the email address on my account? I need to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "What's the process for updating the email address on my account? I want to make a change.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you guide me on changing the email address linked to my account? I want to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I want to change the email address associated with my account. How can I update it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Update the email address on my account. How can I proceed with this?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you guide me on how to update my account's email address? I want to make a change.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I want to modify the email address linked to my account. What's the process for updating it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "How do I go about changing the email address associated with my account? I need to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you provide instructions on updating the email address on my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "What steps should I follow to update the email address associated with my account?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you assist me with changing the email address on my account? I want to update it.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I need to update my account's email address. How can I proceed with the changes?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I want to change the email address associated with my account. How can I update it?",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "Can you guide me on how to update my account's email address? I want to make a change.",
+        "intent": "AccountInformation",
+        "slots": {"action": "update", "information_type": "email address"}
+    },
+    {
+        "user": "I'm interested in beauty products. Can you share information on the current promotions available?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Can you tell me about any ongoing promotions or discounts for beauty items?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm looking for beauty product deals. What are the current promotions you have?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Tell me about the current promotions for beauty products. Any special deals?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm interested in beauty items. Can you inform me about any ongoing promotions or discounts?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "What promotions are currently available for beauty products? Any special offers?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm in the market for beauty products. Can you share details about ongoing promotions?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Tell me about the current promotions for beauty items. Are there any discounts?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Can you check if there are any promotions or discounts on beauty products right now?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm interested in beauty products. Are there any ongoing promotions or discounts I should know about?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Tell me about the current promotions or discounts for beauty items. Any special deals?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm looking for beauty product deals. What are the current promotions you have?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Can you provide information about any ongoing promotions or discounts for beauty products?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm interested in beauty items. Can you inform me about any ongoing promotions or discounts?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "What promotions are currently available for beauty products? Any special offers?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm in the market for beauty products. Can you share details about ongoing promotions?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Tell me about the current promotions for beauty items. Are there any discounts?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Can you check if there are any promotions or discounts on beauty products right now?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I'm interested in beauty products. Are there any ongoing promotions or discounts I should know about?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "Tell me about the current promotions or discounts for beauty items. Any special deals?",
+        "intent": "PromotionsAndDiscounts",
+        "slots": {"product_category": "beauty"}
+    },
+    {
+        "user": "I need to return a product. Can you guide me through the steps of the return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "What's the procedure for returning a product? I want to initiate a return.",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I want to return an item. Could you provide details on the complete return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "How do I go about returning a product? Can you explain the entire return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I need to return a purchase. What are the steps involved in the return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "What's the full process for returning a product? I'd like to initiate a return.",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "Can you provide me with information on how to return a product? What's the process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I'd like to return a product. Could you walk me through the entire return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "How can I initiate a return? What's the step-by-step process for returning a product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I want to return a product. Can you explain the complete process for initiating a return?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "What steps do I need to follow to return a product? Can you provide the full process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I need to return an item. Can you guide me through the entire return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "How do I go about returning a product? What's the detailed process for initiating a return?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I want to return a purchase. Can you provide me with the full process for returning a product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "Can you explain the entire process for returning a product? I'd like to initiate a return.",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I need to return a product. What are the steps involved in the complete return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "What's the procedure for returning a product? Can you guide me through the full process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I want to return an item. Could you provide details on the entire return process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "How do I initiate a return? Can you explain the step-by-step process for returning a product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "return", "process": "full process"}
+    },
+    {
+        "user": "I received a damaged item. What's the process for getting a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I received is damaged. Can you guide me on how to request a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I need a refund for a damaged item. What steps should I follow to initiate the refund process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I received is in poor condition. How can I get a refund for this damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I received a damaged product. What's the procedure for requesting a refund for the damaged item?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I ordered arrived damaged. Can you provide instructions on getting a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I want to get a refund for a damaged item. What's the process for initiating the refund for damaged products?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I received is damaged. Can you explain how I can request a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I received a damaged item. What steps do I need to follow to get a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I ordered is damaged. How can I initiate the refund process for this damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I received a damaged product. Can you guide me on how to request a refund for the damaged item?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I received a damaged product. Can you guide me on how to request a refund for the damaged item?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The product I received is damaged. What are the steps to request a refund for this damaged item?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I want to initiate a refund for a damaged item. Can you provide details on the process for damaged product refunds?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I received is damaged. How can I get a refund for this damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I received a damaged product. What's the procedure for requesting a refund for the damaged item?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I ordered is damaged. Can you guide me through the steps of getting a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I want to get a refund for a damaged item. What steps should I follow for initiating the refund process?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "The item I received is damaged. Can you explain how I can request a refund for the damaged product?",
+        "intent": "ReturnsAndRefunds",
+        "slots": {"action": "refund", "issue": "damaged item"}
+    },
+    {
+        "user": "I want to cancel my order. What's the process?",
+        "intent": "CancelOrder",
+        "slots": {"action": "cancel", "order_type": "order"}
+      },
+      {
+        "user": "I need to change my reservation. How can I modify it?",
+        "intent": "ModifyReservation",
+        "slots": {"action": "modify", "reservation_type": "reservation"}
+      },
+      {
+        "user": "I received the wrong item. Can I request an exchange?",
+        "intent": "RequestExchange",
+        "slots": {"action": "request", "exchange_type": "exchange", "issue": "wrong item"}
+      },
+      {
+        "user": "Where is my package with tracking number 987654?",
+        "intent": "TrackShipment",
+        "slots": {"tracking_number": "987654"}
+      },
+      {
+        "user": "I want to add a product to my cart. How can I do that?",
+        "intent": "AddToCart",
+        "slots": {"action": "add", "product_type": "product", "cart_type": "cart"}
+      },
+      {
+        "user": "How can I check the balance on my gift card?",
+        "intent": "CheckGiftCardBalance",
+        "slots": {"action": "check", "information_type": "balance", "card_type": "gift card"}
+      },
+      {
+        "user": "Can you provide the status of my recent order?",
+        "intent": "OrderStatus",
+        "slots": {"order_type": "order"}
+      },
+      {
+        "user": "Is the product 'XYZ' currently available in your store?",
+        "intent": "InquireProductAvailability",
+        "slots": {"product_name": "XYZ", "store_location": "store"}
+      },
+      {
+        "user": "I have a promo code. How can I apply it to my order?",
+        "intent": "ApplyPromoCode",
+        "slots": {"action": "apply", "code_type": "promo code", "order_type": "order"}
+      },
+      {
+        "user": "I need assistance with a general inquiry. How can I contact customer support?",
+        "intent": "CustomerSupport",
+        "slots": {"action": "contact", "support_type": "customer support"}
+      },
+      {
+        "user": "I want to cancel my order. What's the process?",
+        "intent": "CancelOrder",
+        "slots": {"action": "cancel", "order_type": "order"}
+      },
+      {
+        "user": "I need to change my reservation. How can I modify it?",
+        "intent": "ModifyReservation",
+        "slots": {"action": "modify", "reservation_type": "reservation"}
+      },
+      {
+        "user": "I received the wrong item. Can I request an exchange?",
+        "intent": "RequestExchange",
+        "slots": {"action": "request", "exchange_type": "exchange", "issue": "wrong item"}
+      },
+      {
+        "user": "Where is my package with tracking number 987654?",
+        "intent": "TrackShipment",
+        "slots": {"tracking_number": "987654"}
+      },
+      {
+        "user": "I want to add a product to my cart. How can I do that?",
+        "intent": "AddToCart",
+        "slots": {"action": "add", "product_type": "product", "cart_type": "cart"}
+      },
+      {
+        "user": "How can I check the balance on my gift card?",
+        "intent": "CheckGiftCardBalance",
+        "slots": {"action": "check", "information_type": "balance", "card_type": "gift card"}
+      },
+      {
+        "user": "Can you provide the status of my recent order?",
+        "intent": "OrderStatus",
+        "slots": {"order_type": "order"}
+      },
+      {
+        "user": "Is the product 'XYZ' currently available in your store?",
+        "intent": "InquireProductAvailability",
+        "slots": {"product_name": "XYZ", "store_location": "store"}
+      },
+      {
+        "user": "I have a promo code. How can I apply it to my order?",
+        "intent": "ApplyPromoCode",
+        "slots": {"action": "apply", "code_type": "promo code", "order_type": "order"}
+      },
+      {
+        "user": "I need assistance with a general inquiry. How can I contact customer support?",
+        "intent": "CustomerSupport",
+        "slots": {"action": "contact", "support_type": "customer support"}
+      }
+                                                                      
+  ]
+  
